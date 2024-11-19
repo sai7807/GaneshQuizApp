@@ -35,6 +35,8 @@ public class QuizController {
         responses.forEach(n->System.out.println(n));
         System.out.println("ok");
         return quizService.calculateResult(id, responses);
+
+        //added comment added by rajesh kesani
         //return new ResponseEntity<>(String.valueOf(0), HttpStatus.OK);
     }
 
