@@ -44,7 +44,6 @@ public class QuizService {
             QuestionWrapper qw = new QuestionWrapper(q.getId(),q.getQuestion_title(),q.getOption1(), q.getOption2(),q.getOption3());
             questionForUser.add(qw);
         }
-
             return new ResponseEntity<>(questionForUser,HttpStatus.OK);
     }
 

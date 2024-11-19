@@ -15,7 +15,7 @@ public class QuestionWrapper {
 
     public QuestionWrapper(Integer id, String questionTitle, String option1, String option2, String option3) {
         this.id = id;
-        question_title = questionTitle;
+        this.question_title = questionTitle;
         this.option1 = option1;
         this.option2 = option2;
         this.option3 = option3;

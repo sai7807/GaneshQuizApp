@@ -6,7 +6,7 @@ import com.Quizapp.GaneshQuizApp.model.Question;
 import com.Quizapp.GaneshQuizApp.model.QuestionWrapper;
 import com.Quizapp.GaneshQuizApp.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
+//import org.springframework.http.HttpStatus;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -19,7 +19,6 @@ public class QuizController {
 
     @Autowired
     QuizService quizService;
-
 
     @PostMapping("create")
     public ResponseEntity<String> createQuiz(@RequestParam String category,@RequestParam int numQ,@RequestParam String title){

@@ -1,10 +1,7 @@
 package com.Quizapp.GaneshQuizApp.model;
 
 import jakarta.persistence.*;
-
 import lombok.Data;
-
-
 
 @Data
 @Entity
